@@ -48,7 +48,7 @@ int (*GetPlayerHealth)(void* player);
 bool (*IsLocal)(void* player);
 
 //You need Vector3 struct
-//Offsets are work in 0.15.8 Standoff 2 version
+//Offsets are work in 0.15.10 Standoff 2 version
 
 static void *get_aim(void *player) {
     return *(void **)((uint64_t) player + 0x2C);
